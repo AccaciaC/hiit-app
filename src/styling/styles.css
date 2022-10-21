@@ -433,6 +433,12 @@ footer p {
 .popup .inner .warning-label {
   width: 90px;
 }
+.popup .inner span.button {
+  background-color: #3085D6;
+}
+.popup .inner span.button:hover {
+  color: #F8F7FF;
+}
 
 section div ul li {
   display: block;

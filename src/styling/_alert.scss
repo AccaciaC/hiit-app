@@ -25,5 +25,11 @@
         .warning-label{
             width: 90px;
         }
+        span.button{
+            background-color: $secondAccentCol;
+        }
+        span.button:hover{
+            color: $bodyBkgdCol;
+        }
     }
 }
