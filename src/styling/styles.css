@@ -324,7 +324,11 @@ header .header-container .header-image img {
   border: 2.5px solid #CC8E7F;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   margin-top: 0;
+=======
+  margin: 0;
+>>>>>>> 1b92244b49864e46ce1c7c1a77bcc33ebc966e1a
 }
 .chooseRepSect .chooseRepOptions {
   display: flex;
@@ -432,12 +436,15 @@ footer p {
 }
 .popup .inner .warning-label {
   width: 90px;
+<<<<<<< HEAD
 }
 .popup .inner span.button {
   background-color: #3085D6;
 }
 .popup .inner span.button:hover {
   color: #F8F7FF;
+=======
+>>>>>>> 1b92244b49864e46ce1c7c1a77bcc33ebc966e1a
 }
 
 section div ul li {
