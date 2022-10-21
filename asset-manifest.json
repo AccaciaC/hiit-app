@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hiit-app/static/css/main.545a8f22.css",
+    "main.js": "/hiit-app/static/js/main.96759537.js",
+    "static/media/7-arms-cross-side-lunge.gif": "/hiit-app/static/media/7-arms-cross-side-lunge.7906cc943b5c5e80ae81.gif",
+    "static/media/3-alternating-side-lunge.gif": "/hiit-app/static/media/3-alternating-side-lunge.8a1f3a3317855388a8a9.gif",
+    "static/media/4-alternating-side-lunge-touch.gif": "/hiit-app/static/media/4-alternating-side-lunge-touch.09948cd63e7ce1133bd8.gif",
+    "static/media/1-180-jump-squat.gif": "/hiit-app/static/media/1-180-jump-squat.fa9c7f044eb15e8f611b.gif",
+    "static/media/header-image.png": "/hiit-app/static/media/header-image.b9b1457b9c5ddb3b328e.png",
+    "static/media/6-ankle-tap-push-ups.gif": "/hiit-app/static/media/6-ankle-tap-push-ups.c191bb5156e707e82a3d.gif",
+    "static/media/2-alternating-dumbbell-swing.gif": "/hiit-app/static/media/2-alternating-dumbbell-swing.755af2bd90397176e441.gif",
+    "static/media/5-ankle-hops-exercise.gif": "/hiit-app/static/media/5-ankle-hops-exercise.bb345001373eb663d965.gif",
+    "static/media/9-back-leg-lifts.gif": "/hiit-app/static/media/9-back-leg-lifts.ea95e995c6fb41ffb2ee.gif",
+    "static/media/10-balance-chop.gif": "/hiit-app/static/media/10-balance-chop.d9889949f44354b65192.gif",
+    "static/media/8-arnold-shoulder-press.gif": "/hiit-app/static/media/8-arnold-shoulder-press.1e8c6ed667883d6a7aaf.gif",
+    "index.html": "/hiit-app/index.html",
+    "main.545a8f22.css.map": "/hiit-app/static/css/main.545a8f22.css.map",
+    "main.96759537.js.map": "/hiit-app/static/js/main.96759537.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.545a8f22.css",
+    "static/js/main.96759537.js"
+  ]
+}
