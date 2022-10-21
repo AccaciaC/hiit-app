@@ -256,6 +256,9 @@ header {
   height: 100vh;
   display: flex;
   align-items: center;
+  border-top: 2px solid #CC8E7F;
+  border-left: 2px solid #CC8E7F;
+  border-right: 2px solid #CC8E7F;
 }
 header .header-container {
   display: flex;
@@ -284,7 +287,7 @@ header .header-container .header-image img {
   border: 4px #CC8E7F solid;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   header .header-container {
     height: 100vh;
     flex-direction: column;
@@ -321,6 +324,7 @@ header .header-container .header-image img {
   border: 2.5px solid #CC8E7F;
   display: flex;
   align-items: center;
+  margin-top: 0;
 }
 .chooseRepSect .chooseRepOptions {
   display: flex;
@@ -331,6 +335,9 @@ header .header-container .header-image img {
   display: inline-block;
 }
 
+section {
+  margin-top: 80px;
+}
 section div .exercise-container {
   display: flex;
   justify-content: center;
@@ -343,10 +350,12 @@ section div .exercise-container li {
 .workout-sect {
   display: flex;
   align-items: center;
+  margin-top: 80px;
   height: 600px;
   border: 2.5px solid #CC8E7F;
 }
 .workout-sect .workout-container {
+  padding-top: 25px;
   display: flex;
   justify-content: space-around;
 }
@@ -418,7 +427,11 @@ footer p {
   background-color: #EDE4E9;
   border: 2px #202020 solid;
   border-radius: 20px;
-  height: 200px;
+  height: 350px;
+  font-size: 2.5rem;
+}
+.popup .inner .warning-label {
+  width: 90px;
 }
 
 section div ul li {
@@ -460,13 +473,10 @@ body {
   margin: 0 auto;
 }
 
-section {
-  margin-top: 80px;
-}
-
 h2 {
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 li div {

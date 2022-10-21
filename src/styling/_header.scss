@@ -3,6 +3,9 @@ header{
     height: 100vh; 
     display:flex;
     align-items: center;
+    border-top: 2px solid $accentCol;
+    border-left: 2px solid $accentCol;
+    border-right: 2px solid $accentCol;
     .header-container{
         display: flex;
         .intro-container {
@@ -33,7 +36,7 @@ header{
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
     header{
         .header-container{

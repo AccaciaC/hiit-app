@@ -3,9 +3,6 @@ import Alert from './Alert'
 
 const Timer = (prop) => {
 
-    // function to reload page when time is at 5 minute mark!
-    // window.location.reload(true);
-
     const [time, setTime] = useState(0)
     const [timerOn, setTimeOn] = useState(false)
     const [alert, setAlert] = useState(false)
@@ -31,13 +28,13 @@ const Timer = (prop) => {
             setTimeOn(true)
         } else if (prop.selectedExercises.length != 5  && !prop.toggleRep) {
             setAlert(true)
-            setAlertMessage('Please select REPS and 5 exercises')
+            setAlertMessage('Please select REPS and 5 exercises!')
         }else if (prop.selectedExercises.length != 5){
             setAlert(true)
-            setAlertMessage('Please exercises')
+            setAlertMessage('Please choose exercises!')
         }else{
             setAlert(true)
-            setAlertMessage('Please select REPS')
+            setAlertMessage('Please select REPS!')
         }
     }
 

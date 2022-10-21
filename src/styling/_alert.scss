@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 
     .inner{
         display: flex;
@@ -21,7 +20,10 @@
         background-color: $secondaryBkgdCol;
         border: 2px $bodyFontCol solid;
         border-radius: 20px;
-        height: 200px;
+        height: 350px;
+        font-size: 2.5rem;
+        .warning-label{
+            width: 90px;
+        }
     }
-
 }

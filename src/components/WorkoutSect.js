@@ -1,7 +1,6 @@
 import Timer from './Timer'
 import Footer from './Footer'
-import { BrowserRouter } from 'react-router-dom'
-import { HashLink as Link  } from 'react-router-hash-link'
+
 
 const SelectedExercises = (prop) => {
     const handleDelete = (exerciseSelected) => {   
@@ -33,10 +32,10 @@ const SelectedExercises = (prop) => {
                                 {prop.selectedExercises.map((exerciseSelected => {
                                     return (
                                         <li onClick = { () => handleDelete(exerciseSelected)}>
-                                            <div key=''>                                 
-                                                {exerciseSelected.substring(16).replaceAll('-', ' ').split('.')[0]}
+                                            <div>                                 
+                                                {exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}
                                             
-                                                <img src={exerciseSelected}  alt={exerciseSelected.substring(16).replaceAll('-', ' ').split('.')[0]}/>
+                                                <img src={exerciseSelected}  alt={exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                             </div>
                                         </li>
                                         )
@@ -46,9 +45,7 @@ const SelectedExercises = (prop) => {
                     </div>
                     < Timer selectedRep={prop.selectedRep} selectedExercises={prop.selectedExercises} toggleRep={prop.toggleRep} />
                 </div>
-
             </div>
-           
         </section>
         < Footer />
     </>
