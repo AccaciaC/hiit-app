@@ -11,7 +11,7 @@ const Header = ()=> {
                         <h1>Got Five Minutes?</h1>
                         <p>Get a quick workout in during your BREAK! <br /> You have 5 minutes to complete the set! Are you up for the Challenge?</p>
                         <Link to="#chooseRepSect" smooth>
-                            <a className='button'>Start!</a>   
+                            <span className='button'>Start!</span>   
                         </Link>                
                     </div>
                 </div>

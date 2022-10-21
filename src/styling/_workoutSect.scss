@@ -3,10 +3,11 @@
 .workout-sect {
     display: flex;
     align-items: center;
-
+    margin-top: 80px;
     height: 600px;
     border: 2.5px solid $accentCol;
     .workout-container{
+        padding-top: 25px;
         display: flex;
         justify-content: space-around;
         .workout-exercises{

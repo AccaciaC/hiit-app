@@ -33,10 +33,10 @@ const SelectedExercises = (prop) => {
                                 {prop.selectedExercises.map((exerciseSelected => {
                                     return (
                                         <li onClick = { () => handleDelete(exerciseSelected)}>
-                                            <div key=''>                                 
-                                                {exerciseSelected.substring(16).replaceAll('-', ' ').split('.')[0]}
+                                            <div>                                 
+                                                {exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}
                                             
-                                                <img src={exerciseSelected}  alt={exerciseSelected.substring(16).replaceAll('-', ' ').split('.')[0]}/>
+                                                <img src={exerciseSelected}  alt={exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                             </div>
                                         </li>
                                         )
@@ -46,9 +46,7 @@ const SelectedExercises = (prop) => {
                     </div>
                     < Timer selectedRep={prop.selectedRep} selectedExercises={prop.selectedExercises} toggleRep={prop.toggleRep} />
                 </div>
-
             </div>
-           
         </section>
         < Footer />
     </>
