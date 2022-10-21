@@ -1,0 +1,27 @@
+.popup {
+    font-size: 3.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: clear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 640px;
+        background-color: $secondaryBkgdCol;
+        border: 2px $bodyFontCol solid;
+        border-radius: 20px;
+        height: 200px;
+    }
+
+}

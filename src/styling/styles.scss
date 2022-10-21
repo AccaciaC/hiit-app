@@ -1,0 +1,63 @@
+@import 'setup';
+@import 'variables';
+@import 'header';
+@import 'repOptions';
+@import 'exerciseOptions';
+@import 'workoutSect';
+@import 'footer';
+@import 'alert';
+@import 'exerciseDiv';
+
+
+body {
+    color: $bodyFontCol;
+    background-color: $bodyBkgdCol;
+}
+
+.wrapper {
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+section{
+    margin-top: 80px;
+}
+
+h2 {
+    font-size:3rem;
+    text-align: center;
+}
+
+li{
+    div{
+        font-size: 1.5rem;
+    }
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 35px;
+}
+
+.button{
+    background-color: $accentCol;
+    border: 1.5px solid $bodyFontCol;
+    border-radius: 5px;
+    padding: 10px;
+    color: $white;
+    font-size: 1.5rem;
+    display: block;
+    width: 105px;
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: $bodyBkgdCol;
+    color:$bodyFontCol;
+    border: 1.5px solid $accentCol;
+}
+
+

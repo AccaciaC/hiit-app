@@ -1,0 +1,59 @@
+@import 'variables';
+
+.workout-sect {
+    display: flex;
+    align-items: center;
+
+    height: 600px;
+    border: 2.5px solid $accentCol;
+    .workout-container{
+        display: flex;
+        justify-content: space-around;
+        .workout-exercises{
+            span.reps{
+                box-shadow: inset 0 -0.5em 0 rgb(162 94 189 / 30%);
+                font-size: 2.5rem;
+            }
+            li{
+                width: 300px;
+            }
+        }
+
+    }
+}
+
+// Timer
+.container-timer {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 4px solid $accentCol;
+    border-radius: 50px;
+    .time{
+        font-size: 3.6rem;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .workout-sect {
+        justify-content: center;
+        height: 950px;
+        .workout-container{
+            flex-direction: column;
+            align-items: center;
+            .workout-exercises{
+                span.reps{
+                    box-shadow: inset 0 -0.5em 0 rgb(162 94 189 / 30%);
+                    font-size: 2.5rem;
+                }
+
+            }
+    
+        }
+    }
+}
+

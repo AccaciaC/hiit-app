@@ -1,0 +1,17 @@
+.chooseRepSect{
+    height: 300px;
+    background-color: $secondaryBkgdCol;
+    border: 2.5px solid $accentCol;
+    display: flex;
+    align-items: center;
+    .chooseRepOptions {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        span{
+            display: inline-block;
+        }
+    }
+}
+
+
