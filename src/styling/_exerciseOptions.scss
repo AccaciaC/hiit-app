@@ -1,12 +1,12 @@
 
-section{
-    margin-top: 80px;
+section.exerciseOptions{
+    padding-top: 80px;
     div{
         .exercise-container{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-
+            
             li{
                 width: 250px;
             }

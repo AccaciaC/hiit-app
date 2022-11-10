@@ -40,7 +40,9 @@ const ExerciseOptions = (prop) => {
                                     <li key={exercise} onClick={() => onClick(exercise)}>
                                         <div >                      
                                             {exercise.substring(25).replaceAll('-', ' ').split('.')[0]}
-                                            <img src={ exercise }  alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
+                                            <img src={ exercise }  
+                                            className='option' 
+                                            alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                         </div>
                                     </li>
                                 )
@@ -49,7 +51,7 @@ const ExerciseOptions = (prop) => {
                     </div>
                 </section>
               :
-                <section id='exerciseOptions'>
+                <section className='exerciseOptions' id='exerciseOptions'>
                     <div className='wrapper' >
                         <h2>Please Choose Only 5 Exercises!</h2>
                         <ul className='exercise-container' >
@@ -59,7 +61,7 @@ const ExerciseOptions = (prop) => {
                                         <Link to="#workout-sect" smooth>
                                         <div key=''> 
                                             {exercise.substring(25).replaceAll('-', ' ').split('.')[0]}
-                                            <img src={ exercise }  alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
+                                            <img src={ exercise } className='option'  alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                         </div>
                                         </Link>
                                     </li>

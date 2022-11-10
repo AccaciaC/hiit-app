@@ -324,11 +324,7 @@ header .header-container .header-image img {
   border: 2.5px solid #CC8E7F;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   margin-top: 0;
-=======
-  margin: 0;
->>>>>>> 1b92244b49864e46ce1c7c1a77bcc33ebc966e1a
 }
 .chooseRepSect .chooseRepOptions {
   display: flex;
@@ -339,15 +335,15 @@ header .header-container .header-image img {
   display: inline-block;
 }
 
-section {
-  margin-top: 80px;
+section.exerciseOptions {
+  padding-top: 80px;
 }
-section div .exercise-container {
+section.exerciseOptions div .exercise-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-section div .exercise-container li {
+section.exerciseOptions div .exercise-container li {
   width: 250px;
 }
 
@@ -436,15 +432,12 @@ footer p {
 }
 .popup .inner .warning-label {
   width: 90px;
-<<<<<<< HEAD
 }
 .popup .inner span.button {
   background-color: #3085D6;
 }
 .popup .inner span.button:hover {
   color: #F8F7FF;
-=======
->>>>>>> 1b92244b49864e46ce1c7c1a77bcc33ebc966e1a
 }
 
 section div ul li {
@@ -453,7 +446,6 @@ section div ul li {
   font-size: 1.5rem;
   text-transform: capitalize;
   padding: 15px;
-  border-bottom: solid 2px #F0D5D2;
   margin: 10px;
 }
 section div ul li div {
@@ -463,16 +455,16 @@ section div ul li div {
   width: 100%;
 }
 section div ul li div img {
-  height: 0;
-  overflow: hidden;
-}
-section div ul li div img:hover {
-  cursor: pointer;
-}
-section div ul li:hover img {
   border: 2px solid #F0D5D2;
   border-radius: 20px;
   height: 100%;
+}
+section div ul li div img.selected {
+  height: 0;
+  overflow: hidden;
+}
+section div ul li:hover {
+  cursor: pointer;
 }
 
 body {

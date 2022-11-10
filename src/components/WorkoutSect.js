@@ -35,7 +35,8 @@ const SelectedExercises = (prop) => {
                                             <div>                                 
                                                 {exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}
                                             
-                                                <img src={exerciseSelected}  alt={exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}/>
+                                                <img src={exerciseSelected}
+                                                className='selected'  alt={exerciseSelected.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                             </div>
                                         </li>
                                         )
