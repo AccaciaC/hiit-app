@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hiit-app/static/css/main.2e6cec64.css",
-    "main.js": "/hiit-app/static/js/main.f58c816c.js",
+    "main.css": "/hiit-app/static/css/main.060bf6b6.css",
+    "main.js": "/hiit-app/static/js/main.493684ab.js",
     "static/media/7-arms-cross-side-lunge.gif": "/hiit-app/static/media/7-arms-cross-side-lunge.7906cc943b5c5e80ae81.gif",
     "static/media/3-alternating-side-lunge.gif": "/hiit-app/static/media/3-alternating-side-lunge.8a1f3a3317855388a8a9.gif",
     "static/media/4-alternating-side-lunge-touch.gif": "/hiit-app/static/media/4-alternating-side-lunge-touch.09948cd63e7ce1133bd8.gif",
@@ -14,11 +14,11 @@
     "static/media/10-balance-chop.gif": "/hiit-app/static/media/10-balance-chop.d9889949f44354b65192.gif",
     "static/media/8-arnold-shoulder-press.gif": "/hiit-app/static/media/8-arnold-shoulder-press.1e8c6ed667883d6a7aaf.gif",
     "index.html": "/hiit-app/index.html",
-    "main.2e6cec64.css.map": "/hiit-app/static/css/main.2e6cec64.css.map",
-    "main.f58c816c.js.map": "/hiit-app/static/js/main.f58c816c.js.map"
+    "main.060bf6b6.css.map": "/hiit-app/static/css/main.060bf6b6.css.map",
+    "main.493684ab.js.map": "/hiit-app/static/js/main.493684ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e6cec64.css",
-    "static/js/main.f58c816c.js"
+    "static/css/main.060bf6b6.css",
+    "static/js/main.493684ab.js"
   ]
 }
