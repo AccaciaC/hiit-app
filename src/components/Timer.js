@@ -47,18 +47,18 @@ const Timer = (prop) => {
                 </div>
                 <div>
                     {!timerOn && time == 0 && (
-                        <a className='button' onClick={()=> startBtn()}> Start</a>
+                        <a className='button' tabIndex={0} onClick={()=> startBtn()}> Start</a>
                     )}
                     {timerOn && (
-                        <a className='button' onClick={()=> setTimeOn(false)}> Pause</a>
+                        <a className='button' tabIndex={0} onClick={()=> setTimeOn(false)}> Pause</a>
                     )}
 
                     {!timerOn && time > 0 && (
-                        <a className='button' onClick={()=> setTimeOn(true)}> Resume</a>
+                        <a className='button' tabIndex={0} onClick={()=> setTimeOn(true)}> Resume</a>
                     )}
 
                     {!timerOn && time > 0 && (
-                        <a className='button' onClick={()=> setTime(0)}> Reset</a>
+                        <a className='button' tabIndex={0} onClick={()=> setTime(0)}> Reset</a>
                     )}
                 </div>
             </div>   

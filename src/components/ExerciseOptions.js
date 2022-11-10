@@ -42,6 +42,7 @@ const ExerciseOptions = (prop) => {
                                             {exercise.substring(25).replaceAll('-', ' ').split('.')[0]}
                                             <img src={ exercise }  
                                             className='option' 
+                                            tabIndex={0}
                                             alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                         </div>
                                     </li>
@@ -61,7 +62,7 @@ const ExerciseOptions = (prop) => {
                                         <Link to="#workout-sect" smooth>
                                         <div key=''> 
                                             {exercise.substring(25).replaceAll('-', ' ').split('.')[0]}
-                                            <img src={ exercise } className='option'  alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
+                                            <img src={ exercise } className='option' tabIndex={0} alt={exercise.substring(25).replaceAll('-', ' ').split('.')[0]}/>
                                         </div>
                                         </Link>
                                     </li>
