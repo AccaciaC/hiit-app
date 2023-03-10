@@ -33,7 +33,7 @@ const ExerciseOptions = (prop) => {
             { selectedExercises.length < 5 ?
                 <section className='exerciseOptions' id='exerciseOptions'>
                     <div className='wrapper' >
-                        <h2>Please Choose Only 5 Exercises!</h2>
+                        <h2>Select 5 exercises</h2>
                         <ul className='exercise-container' >
                             {exerciseOptions.map((exercise => {
                                 return (
@@ -54,7 +54,7 @@ const ExerciseOptions = (prop) => {
               :
                 <section className='exerciseOptions' id='exerciseOptions'>
                     <div className='wrapper' >
-                        <h2>Please Choose Only 5 Exercises!</h2>
+                        <h2>Select 5 exercises!</h2>
                         <ul className='exercise-container' >
                             {exerciseOptions.map((exercise => {
                                 return (
